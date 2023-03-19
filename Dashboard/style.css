@@ -1,1 +1,27 @@
-stylecss
+#dropright {
+  font-weight:bold;
+  font-size: 19px;
+  background-image: linear-gradient(to bottom right, #ffffff, #0ca75f);
+  border: 1px solid #35343a;
+  border-radius: 5px;
+}
+#dropright:hover{
+  color:blue;
+}
+.dropdown-menu{
+  font-size: 15px;
+  background-image: linear-gradient(to top right, white, #0ca75f);
+  
+}
+.btn-group .dropdown-menu button:hover{
+  border: 1px solid #2e3031;
+  border-radius: 12px;
+}
+.dropdown-menu.show {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.1; transform: translateY(1px); }
+}
+
